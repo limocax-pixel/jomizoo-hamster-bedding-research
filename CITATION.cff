@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this software as a synthetic research-planning demonstration, not an animal experiment."
+title: "JOMIZOO hamster bedding research: synthetic planning and analysis"
+version: 0.1.0
+type: software
+authors:
+  - name: "JOMIZOO research contributors"
+license: MIT
+keywords:
+  - synthetic data
+  - experimental design
+  - hamster bedding
+  - reproducible research
+abstract: >-
+  A dependency-free simulator, validator, and analysis demonstration for two
+  provisional hamster-bedding study designs. All included records are explicitly
+  synthetic. No animal observations, ethical approval, product efficacy, or
+  sample-size justification are claimed.

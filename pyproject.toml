@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jomizoo-bedding-research"
+version = "0.1.0"
+description = "Explicitly synthetic, reproducible hamster bedding study planning"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "JOMIZOO research contributors"}]
+dependencies = []
+
+[project.scripts]
+jomizoo-bedding = "jomizoo_bedding.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

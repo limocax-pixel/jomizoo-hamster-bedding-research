@@ -1,0 +1,10 @@
+{
+  "data_origin": "SYNTHETIC_NOT_OBSERVED",
+  "files": {
+    "SYNTHETIC_primary_endpoint.svg": "206d5956c1c68c1ce01768324536880b0090aa950cac7a284f107940622ac8c5",
+    "SYNTHETIC_report.md": "d4d61655b9cc62e51e10017332b2d337523201b164c690b2687e83796f69b7b0",
+    "activity_per_animal.csv": "f51215bf7f3d3f7f209d3bf133151b4007398722e50a7d894984baf9199d9c69",
+    "analysis.json": "4726318e1a66dc788665cd3fbfa00f2ecd8fc35e4fdcb6ed36a33fdd388d05ca",
+    "retention_per_independent_batch.csv": "eab8324d972cd0d026e64d7577d5775668e1ef39ef437bda48577d406318eddc"
+  }
+}

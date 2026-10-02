@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "data_origin": "SYNTHETIC_NOT_OBSERVED",
+  "status": "SIMULATION_ONLY_NO_ANIMAL_EXPERIMENT",
+  "scenario": "modest",
+  "seed": 20261002,
+  "n_per_condition": 12,
+  "single_cohort": true,
+  "units": {
+    "depth_cm": "cm",
+    "bulk_density_kg_m3": "kg/m3",
+    "latency_days": "day",
+    "followup_days": "day",
+    "observation_minutes": "minute",
+    "digging_minutes": "minute",
+    "exploring_minutes": "minute",
+    "other_minutes": "minute",
+    "retention_fraction_24h": "fraction",
+    "monitoring_coverage_fraction": "fraction"
+  },
+  "endpoint_coverage_threshold": 0.9,
+  "animal_material_batches": "one independently produced hypothetical batch per animal; not aliquots of one batch",
+  "assumptions": {
+    "S1": [
+      0.45,
+      0.55,
+      0.6,
+      0.72
+    ],
+    "S2": [
+      0.58,
+      0.68,
+      0.74
+    ]
+  },
+  "limitations": [
+    "All effect sizes, density and depth levels, coverage threshold and sample sizes are planning assumptions, not observed facts or approved animal procedures.",
+    "No seed searching; null/modest/plateau are scenarios, not biological conclusions.",
+    "Bench batches are independent of animal material batches. Animal and batch are analysis units.",
+    "Hashes detect accidental file changes; they do not establish the truth of any observations."
+  ],
+  "files": {
+    "animals.csv": {
+      "sha256": "2bdf0c12bdb4117f7337021977998bca8929051ec5351ba994e4381504a4b4ed",
+      "rows": 84
+    },
+    "daily_activity.csv": {
+      "sha256": "ceb68f946a38de6dd045d729a2a73c1a915d700e6c061ed860d896813fd27eda",
+      "rows": 1176
+    },
+    "bench.csv": {
+      "sha256": "e558342749804c06097536b3834c0801a5a6b09c31efd6b3d0be8fb1fa113f44",
+      "rows": 72
+    }
+  }
+}

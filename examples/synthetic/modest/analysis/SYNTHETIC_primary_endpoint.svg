@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="1100" height="620" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#162338}</style>
+<text x="45" y="36" font-size="23">Synthetic planning scenarios: confirmed burrow use by day 14</text>
+<text x="45" y="64" font-size="15">Cell risk and Wilson 95% interval; unknown outcomes excluded; no biological conclusions</text>
+<text x="75" y="106" font-size="20">S1</text>
+<path d="M75 145 V470 H495" stroke="#516277" fill="none"/>
+<line x1="75" y1="470" x2="495" y2="470" stroke="#e3e8ee"/>
+<text x="40" y="475" font-size="13">0.00</text>
+<line x1="75" y1="395.0" x2="495" y2="395.0" stroke="#e3e8ee"/>
+<text x="40" y="400.0" font-size="13">0.25</text>
+<line x1="75" y1="320.0" x2="495" y2="320.0" stroke="#e3e8ee"/>
+<text x="40" y="325.0" font-size="13">0.50</text>
+<line x1="75" y1="245.0" x2="495" y2="245.0" stroke="#e3e8ee"/>
+<text x="40" y="250.0" font-size="13">0.75</text>
+<line x1="75" y1="170" x2="495" y2="170" stroke="#e3e8ee"/>
+<text x="40" y="175" font-size="13">1.00</text>
+<line x1="140" y1="289.0334442383436" x2="140" y2="437.66261977810973" stroke="#276c9e" stroke-width="3"/>
+<circle cx="140" cy="380.0" r="6" fill="#276c9e"/>
+<text x="140" y="498" font-size="13" text-anchor="middle">short_35</text>
+<text x="140" y="522" font-size="12" text-anchor="middle">known n=10</text>
+<text x="140" y="540" font-size="12" text-anchor="middle">unknown=2</text>
+<line x1="240" y1="199.2381778700747" x2="240" y2="339.6935903528388" stroke="#276c9e" stroke-width="3"/>
+<circle cx="240" cy="251.8181818181818" r="6" fill="#276c9e"/>
+<text x="240" y="498" font-size="13" text-anchor="middle">short_55</text>
+<text x="240" y="522" font-size="12" text-anchor="middle">known n=11</text>
+<text x="240" y="540" font-size="12" text-anchor="middle">unknown=1</text>
+<line x1="340" y1="246.13447929011184" x2="340" y2="393.8655207098882" stroke="#276c9e" stroke-width="3"/>
+<circle cx="340" cy="320.0" r="6" fill="#276c9e"/>
+<text x="340" y="498" font-size="13" text-anchor="middle">long_35</text>
+<text x="340" y="522" font-size="12" text-anchor="middle">known n=12</text>
+<text x="340" y="540" font-size="12" text-anchor="middle">unknown=0</text>
+<line x1="440" y1="196.6825005182164" x2="440" y2="329.6916004800697" stroke="#276c9e" stroke-width="3"/>
+<circle cx="440" cy="245.0" r="6" fill="#276c9e"/>
+<text x="440" y="498" font-size="13" text-anchor="middle">long_55</text>
+<text x="440" y="522" font-size="12" text-anchor="middle">known n=12</text>
+<text x="440" y="540" font-size="12" text-anchor="middle">unknown=0</text>
+<text x="615" y="106" font-size="20">S2</text>
+<path d="M615 145 V470 H1035" stroke="#516277" fill="none"/>
+<line x1="615" y1="470" x2="1035" y2="470" stroke="#e3e8ee"/>
+<text x="580" y="475" font-size="13">0.00</text>
+<line x1="615" y1="395.0" x2="1035" y2="395.0" stroke="#e3e8ee"/>
+<text x="580" y="400.0" font-size="13">0.25</text>
+<line x1="615" y1="320.0" x2="1035" y2="320.0" stroke="#e3e8ee"/>
+<text x="580" y="325.0" font-size="13">0.50</text>
+<line x1="615" y1="245.0" x2="1035" y2="245.0" stroke="#e3e8ee"/>
+<text x="580" y="250.0" font-size="13">0.75</text>
+<line x1="615" y1="170" x2="1035" y2="170" stroke="#e3e8ee"/>
+<text x="580" y="175" font-size="13">1.00</text>
+<line x1="680" y1="202.33738022189033" x2="680" y2="350.9665557616564" stroke="#276c9e" stroke-width="3"/>
+<circle cx="680" cy="260.0" r="6" fill="#276c9e"/>
+<text x="680" y="498" font-size="13" text-anchor="middle">depth_40</text>
+<text x="680" y="522" font-size="12" text-anchor="middle">known n=10</text>
+<text x="680" y="540" font-size="12" text-anchor="middle">unknown=2</text>
+<line x1="780" y1="199.2381778700747" x2="780" y2="339.6935903528388" stroke="#276c9e" stroke-width="3"/>
+<circle cx="780" cy="251.8181818181818" r="6" fill="#276c9e"/>
+<text x="780" y="498" font-size="13" text-anchor="middle">depth_50</text>
+<text x="780" y="522" font-size="12" text-anchor="middle">known n=11</text>
+<text x="780" y="540" font-size="12" text-anchor="middle">unknown=1</text>
+<line x1="880" y1="174.45952832147515" x2="880" y2="276.1639733423351" stroke="#276c9e" stroke-width="3"/>
+<circle cx="880" cy="195.0" r="6" fill="#276c9e"/>
+<text x="880" y="498" font-size="13" text-anchor="middle">depth_60</text>
+<text x="880" y="522" font-size="12" text-anchor="middle">known n=12</text>
+<text x="880" y="540" font-size="12" text-anchor="middle">unknown=0</text>
+<text x="550" y="310" text-anchor="middle" font-size="50" fill="#bb1f36" style="fill:#bb1f36;opacity:.20" transform="rotate(-13 550 310)">SYNTHETIC — NOT OBSERVED</text>
+<text x="45" y="585" font-size="17" style="fill:#b51f35">SIMULATION ONLY · No animals studied · No ethical approval claimed · No efficacy evidence</text>
+</svg>

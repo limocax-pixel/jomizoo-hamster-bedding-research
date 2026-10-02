@@ -1,0 +1,578 @@
+{
+  "data_origin": "SYNTHETIC_NOT_OBSERVED",
+  "status": "SYNTHETIC_DEMONSTRATION_NOT_EXPERIMENTAL_RESULTS",
+  "scenario": "null",
+  "source_manifest_sha256": "856df20999e3150619e9440241ecdcbb5c00c7a603ac4351514a3fdac21da79c",
+  "validation": {
+    "valid": true,
+    "data_origin": "SYNTHETIC_NOT_OBSERVED",
+    "animals": 84,
+    "unknown_primary": 6,
+    "animal_nights": 1176,
+    "independent_bench_batches": 24
+  },
+  "studies": {
+    "S1": {
+      "conditions": {
+        "short_35": {
+          "randomized_n": 12,
+          "known_n": 11,
+          "unknown_n": 1,
+          "successes": 10,
+          "risk": 0.9090909090909091,
+          "wilson_95": [
+            0.6226415635484043,
+            0.9837678271141151
+          ],
+          "all_randomized_missingness_bounds": [
+            0.8333333333333334,
+            0.9166666666666666
+          ]
+        },
+        "short_55": {
+          "randomized_n": 12,
+          "known_n": 12,
+          "unknown_n": 0,
+          "successes": 8,
+          "risk": 0.6666666666666666,
+          "wilson_95": [
+            0.39062208887279953,
+            0.8618799089087867
+          ],
+          "all_randomized_missingness_bounds": [
+            0.6666666666666666,
+            0.6666666666666666
+          ]
+        },
+        "long_35": {
+          "randomized_n": 12,
+          "known_n": 12,
+          "unknown_n": 0,
+          "successes": 9,
+          "risk": 0.75,
+          "wilson_95": [
+            0.46769466506643426,
+            0.9110583316059453
+          ],
+          "all_randomized_missingness_bounds": [
+            0.75,
+            0.75
+          ]
+        },
+        "long_55": {
+          "randomized_n": 12,
+          "known_n": 12,
+          "unknown_n": 0,
+          "successes": 9,
+          "risk": 0.75,
+          "wilson_95": [
+            0.46769466506643426,
+            0.9110583316059453
+          ],
+          "all_randomized_missingness_bounds": [
+            0.75,
+            0.75
+          ]
+        }
+      },
+      "descriptive_risk_contrasts_no_inferential_ci": {
+        "long_minus_short_equal_density_weight": -0.037878787878787845,
+        "55_minus_35_equal_fibre_weight": -0.12121212121212127,
+        "interaction_difference_in_risk_differences": 0.24242424242424243
+      },
+      "primary_omnibus": {
+        "p_value": 0.6368,
+        "statistic": 0.3497743391360413,
+        "iterations": 9999,
+        "seed": 20261003,
+        "known_n": 47,
+        "method": "sex-blocked observed-case Monte Carlo omnibus; +1 correction",
+        "limitation": "Requires exchangeable missingness conditional on blocks; not an unconditional exact test under informative missingness."
+      },
+      "descriptive_kaplan_meier": {
+        "short_35": {
+          "included_n": 11,
+          "excluded_low_coverage_n": 1,
+          "curve": [
+            {
+              "day": 0.0,
+              "survival": 1.0,
+              "at_risk": 11,
+              "events": 0
+            },
+            {
+              "day": 2.2287,
+              "survival": 0.9090909090909091,
+              "at_risk": 11,
+              "events": 1
+            },
+            {
+              "day": 2.2517,
+              "survival": 0.8181818181818181,
+              "at_risk": 10,
+              "events": 1
+            },
+            {
+              "day": 2.2527,
+              "survival": 0.7272727272727272,
+              "at_risk": 9,
+              "events": 1
+            },
+            {
+              "day": 2.3839,
+              "survival": 0.6363636363636362,
+              "at_risk": 8,
+              "events": 1
+            },
+            {
+              "day": 2.9451,
+              "survival": 0.5454545454545454,
+              "at_risk": 7,
+              "events": 1
+            },
+            {
+              "day": 4.2614,
+              "survival": 0.45454545454545453,
+              "at_risk": 6,
+              "events": 1
+            },
+            {
+              "day": 7.5683,
+              "survival": 0.36363636363636365,
+              "at_risk": 5,
+              "events": 1
+            },
+            {
+              "day": 8.678,
+              "survival": 0.2727272727272727,
+              "at_risk": 4,
+              "events": 1
+            },
+            {
+              "day": 10.1562,
+              "survival": 0.18181818181818182,
+              "at_risk": 3,
+              "events": 1
+            },
+            {
+              "day": 13.3372,
+              "survival": 0.09090909090909091,
+              "at_risk": 2,
+              "events": 1
+            }
+          ]
+        },
+        "short_55": {
+          "included_n": 12,
+          "excluded_low_coverage_n": 0,
+          "curve": [
+            {
+              "day": 0.0,
+              "survival": 1.0,
+              "at_risk": 12,
+              "events": 0
+            },
+            {
+              "day": 0.758,
+              "survival": 0.9166666666666666,
+              "at_risk": 12,
+              "events": 1
+            },
+            {
+              "day": 1.8188,
+              "survival": 0.8333333333333333,
+              "at_risk": 11,
+              "events": 1
+            },
+            {
+              "day": 2.2767,
+              "survival": 0.75,
+              "at_risk": 10,
+              "events": 1
+            },
+            {
+              "day": 4.1191,
+              "survival": 0.6666666666666666,
+              "at_risk": 9,
+              "events": 1
+            },
+            {
+              "day": 4.8172,
+              "survival": 0.5833333333333333,
+              "at_risk": 8,
+              "events": 1
+            },
+            {
+              "day": 5.5115,
+              "survival": 0.5,
+              "at_risk": 7,
+              "events": 1
+            },
+            {
+              "day": 6.7185,
+              "survival": 0.4166666666666667,
+              "at_risk": 6,
+              "events": 1
+            },
+            {
+              "day": 9.5758,
+              "survival": 0.33333333333333337,
+              "at_risk": 5,
+              "events": 1
+            }
+          ]
+        },
+        "long_35": {
+          "included_n": 12,
+          "excluded_low_coverage_n": 0,
+          "curve": [
+            {
+              "day": 0.0,
+              "survival": 1.0,
+              "at_risk": 12,
+              "events": 0
+            },
+            {
+              "day": 1.8064,
+              "survival": 0.9166666666666666,
+              "at_risk": 12,
+              "events": 1
+            },
+            {
+              "day": 1.8848,
+              "survival": 0.8333333333333333,
+              "at_risk": 11,
+              "events": 1
+            },
+            {
+              "day": 2.3445,
+              "survival": 0.75,
+              "at_risk": 10,
+              "events": 1
+            },
+            {
+              "day": 2.4711,
+              "survival": 0.6666666666666666,
+              "at_risk": 9,
+              "events": 1
+            },
+            {
+              "day": 2.5486,
+              "survival": 0.5833333333333333,
+              "at_risk": 8,
+              "events": 1
+            },
+            {
+              "day": 3.7194,
+              "survival": 0.5,
+              "at_risk": 7,
+              "events": 1
+            },
+            {
+              "day": 9.3996,
+              "survival": 0.4166666666666667,
+              "at_risk": 6,
+              "events": 1
+            },
+            {
+              "day": 9.7606,
+              "survival": 0.33333333333333337,
+              "at_risk": 5,
+              "events": 1
+            },
+            {
+              "day": 10.1873,
+              "survival": 0.25,
+              "at_risk": 4,
+              "events": 1
+            }
+          ]
+        },
+        "long_55": {
+          "included_n": 12,
+          "excluded_low_coverage_n": 0,
+          "curve": [
+            {
+              "day": 0.0,
+              "survival": 1.0,
+              "at_risk": 12,
+              "events": 0
+            },
+            {
+              "day": 0.5842,
+              "survival": 0.9166666666666666,
+              "at_risk": 12,
+              "events": 1
+            },
+            {
+              "day": 3.1747,
+              "survival": 0.8333333333333333,
+              "at_risk": 11,
+              "events": 1
+            },
+            {
+              "day": 3.5067,
+              "survival": 0.75,
+              "at_risk": 10,
+              "events": 1
+            },
+            {
+              "day": 3.7533,
+              "survival": 0.6666666666666666,
+              "at_risk": 9,
+              "events": 1
+            },
+            {
+              "day": 4.8633,
+              "survival": 0.5833333333333333,
+              "at_risk": 8,
+              "events": 1
+            },
+            {
+              "day": 5.2717,
+              "survival": 0.5,
+              "at_risk": 7,
+              "events": 1
+            },
+            {
+              "day": 5.3599,
+              "survival": 0.4166666666666667,
+              "at_risk": 6,
+              "events": 1
+            },
+            {
+              "day": 8.0004,
+              "survival": 0.33333333333333337,
+              "at_risk": 5,
+              "events": 1
+            },
+            {
+              "day": 13.9531,
+              "survival": 0.25,
+              "at_risk": 4,
+              "events": 1
+            }
+          ]
+        }
+      }
+    },
+    "S2": {
+      "conditions": {
+        "depth_40": {
+          "randomized_n": 12,
+          "known_n": 12,
+          "unknown_n": 0,
+          "successes": 8,
+          "risk": 0.6666666666666666,
+          "wilson_95": [
+            0.39062208887279953,
+            0.8618799089087867
+          ],
+          "all_randomized_missingness_bounds": [
+            0.6666666666666666,
+            0.6666666666666666
+          ]
+        },
+        "depth_50": {
+          "randomized_n": 12,
+          "known_n": 9,
+          "unknown_n": 3,
+          "successes": 5,
+          "risk": 0.5555555555555556,
+          "wilson_95": [
+            0.26665129349549305,
+            0.8112214789023355
+          ],
+          "all_randomized_missingness_bounds": [
+            0.4166666666666667,
+            0.6666666666666666
+          ]
+        },
+        "depth_60": {
+          "randomized_n": 12,
+          "known_n": 10,
+          "unknown_n": 2,
+          "successes": 5,
+          "risk": 0.5,
+          "wilson_95": [
+            0.236593090512564,
+            0.7634069094874361
+          ],
+          "all_randomized_missingness_bounds": [
+            0.4166666666666667,
+            0.5833333333333334
+          ]
+        }
+      },
+      "descriptive_risk_contrasts_no_inferential_ci": {
+        "50_minus_40": -0.11111111111111105,
+        "60_minus_40": -0.16666666666666663,
+        "60_minus_50": -0.05555555555555558
+      },
+      "primary_omnibus": {
+        "p_value": 0.7513,
+        "statistic": 0.15949820788530455,
+        "iterations": 9999,
+        "seed": 20261004,
+        "known_n": 31,
+        "method": "sex-blocked observed-case Monte Carlo omnibus; +1 correction",
+        "limitation": "Requires exchangeable missingness conditional on blocks; not an unconditional exact test under informative missingness."
+      },
+      "descriptive_kaplan_meier": {
+        "depth_40": {
+          "included_n": 12,
+          "excluded_low_coverage_n": 0,
+          "curve": [
+            {
+              "day": 0.0,
+              "survival": 1.0,
+              "at_risk": 12,
+              "events": 0
+            },
+            {
+              "day": 0.271,
+              "survival": 0.9166666666666666,
+              "at_risk": 12,
+              "events": 1
+            },
+            {
+              "day": 0.6829,
+              "survival": 0.8333333333333333,
+              "at_risk": 11,
+              "events": 1
+            },
+            {
+              "day": 2.082,
+              "survival": 0.75,
+              "at_risk": 10,
+              "events": 1
+            },
+            {
+              "day": 3.76,
+              "survival": 0.6666666666666666,
+              "at_risk": 9,
+              "events": 1
+            },
+            {
+              "day": 4.8299,
+              "survival": 0.5833333333333333,
+              "at_risk": 8,
+              "events": 1
+            },
+            {
+              "day": 6.4731,
+              "survival": 0.5,
+              "at_risk": 7,
+              "events": 1
+            },
+            {
+              "day": 7.6691,
+              "survival": 0.4166666666666667,
+              "at_risk": 6,
+              "events": 1
+            },
+            {
+              "day": 12.8294,
+              "survival": 0.33333333333333337,
+              "at_risk": 5,
+              "events": 1
+            }
+          ]
+        },
+        "depth_50": {
+          "included_n": 10,
+          "excluded_low_coverage_n": 2,
+          "curve": [
+            {
+              "day": 0.0,
+              "survival": 1.0,
+              "at_risk": 10,
+              "events": 0
+            },
+            {
+              "day": 0.0053,
+              "survival": 0.9,
+              "at_risk": 10,
+              "events": 1
+            },
+            {
+              "day": 2.0892,
+              "survival": 0.7999999999999999,
+              "at_risk": 9,
+              "events": 1
+            },
+            {
+              "day": 6.339,
+              "survival": 0.7,
+              "at_risk": 8,
+              "events": 1
+            },
+            {
+              "day": 8.7012,
+              "survival": 0.6,
+              "at_risk": 7,
+              "events": 1
+            },
+            {
+              "day": 12.4917,
+              "survival": 0.48,
+              "at_risk": 5,
+              "events": 1
+            }
+          ]
+        },
+        "depth_60": {
+          "included_n": 12,
+          "excluded_low_coverage_n": 0,
+          "curve": [
+            {
+              "day": 0.0,
+              "survival": 1.0,
+              "at_risk": 12,
+              "events": 0
+            },
+            {
+              "day": 1.8295,
+              "survival": 0.9166666666666666,
+              "at_risk": 12,
+              "events": 1
+            },
+            {
+              "day": 2.2465,
+              "survival": 0.8333333333333333,
+              "at_risk": 11,
+              "events": 1
+            },
+            {
+              "day": 2.9997,
+              "survival": 0.75,
+              "at_risk": 10,
+              "events": 1
+            },
+            {
+              "day": 4.1008,
+              "survival": 0.6666666666666666,
+              "at_risk": 9,
+              "events": 1
+            },
+            {
+              "day": 6.617,
+              "survival": 0.5833333333333333,
+              "at_risk": 8,
+              "events": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "limitations": [
+    "No observed animal data, ethical approval, product efficacy, optimal depth or sample-size justification.",
+    "Primary analyses use known outcomes; complete follow-up plus >=90% endpoint surveillance is required for a negative. Coverage criterion is hypothetical and requires validation.",
+    "Kaplan–Meier retains confirmed events even at low coverage and excludes low-coverage event-free animals; selection and censoring must be noninformative to interpret as a survival estimator. No inferential latency comparisons.",
+    "Daily observations are aggregated within animal; tunnel replicates within independently produced batch. No pseudoreplication as animals or batches.",
+    "Monte Carlo omnibus is within sex in a single cohort. Informative missingness invalidates randomization interpretation; bounds are descriptive sensitivity checks.",
+    "Risk contrasts are descriptive and have no inferential intervals or multiplicity-adjusted claims. Cell Wilson intervals are not simultaneous.",
+    "Parameters and all three fixed-seed scenarios are assumptions. Real multicohort or shared-batch designs require a revised analysis before data collection."
+  ]
+}
